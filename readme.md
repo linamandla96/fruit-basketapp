@@ -1,0 +1,1 @@
+[![Build Status](https://app.travis-ci.com/linamandla96/fruit-basketapp.svg?branch=main)](https://app.travis-ci.com/linamandla96/fruit-basketapp)
