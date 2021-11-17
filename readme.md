@@ -1,1 +1,1 @@
-[![Build Status](https://app.travis-ci.com/linamandla96/fruit-basketapp.svg?branch=main)](https://app.travis-ci.com/linamandla96/fruit-basketapp)
+[![Build Status](https://app.travis-ci.com/linamandla96/fruit-basketapp.svg?branch=master)](https://app.travis-ci.com/linamandla96/fruit-basketapp)
