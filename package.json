@@ -1,0 +1,16 @@
+{
+  "name": "fruit-busketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FruitBasket.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
