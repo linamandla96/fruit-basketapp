@@ -15,7 +15,7 @@ describe('The fruit basket function', function () {
 
 
 
-    it('should get the type of fruit', async function () {
+    it('should get fruit basket for a specific fruit', async function () {
 
         const theFruitBasket = await TheFruit(pool);
         await theFruitBasket.newBasketFruit('orange', 1, 2)
@@ -26,7 +26,7 @@ describe('The fruit basket function', function () {
     });
 
 
-    it('should update fruit in the basket', async function () {
+    it('should able update the number of fruit in the basket', async function () {
 
         const theFruitBasket = await TheFruit(pool);
         await theFruitBasket.newBasketFruit('orange', 1, 2)
@@ -39,7 +39,7 @@ describe('The fruit basket function', function () {
 
     });
 
-    it('should calculate the total price of the fruit', async function () {
+    it('should calculate the total price for a specific fruit', async function () {
 
         const theFruitBasket = await TheFruit(pool);
         await theFruitBasket.newBasketFruit('orange', 1, 2);
@@ -50,7 +50,7 @@ describe('The fruit basket function', function () {
         assert.deepEqual([{sum:2.00}],await theFruitBasket.showfruitTotal('Banana'));
 
     });
-    it('should  be able to show the total sum of the fruit basket', async function () {
+    it('should  be able to show the total sum of the specific fruit in basket', async function () {
 
         const theFruitBasket = await TheFruit(pool);
         await theFruitBasket.newBasketFruit('Banana', 1, 2);
