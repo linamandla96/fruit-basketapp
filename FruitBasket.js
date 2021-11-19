@@ -11,8 +11,8 @@ async function getFruits(fruitname){
 var fruitType = await pool.query('select fruit,quantity,price from fruitbasket where fruit = $1',[fruitname])
 return fruitType.rows;
 }
-async function update(fruitname){
-await pool.query('UPDATE  fruitbasket SET  quantity = quantity  + 1  WHERE fruit  = $1', [fruitname])
+async function update(fruitname,quantity){
+await pool.query('UPDATE  fruitbasket SET  quantity = quantity  + $2  WHERE fruit  = $1', [fruitname,quantity])
 }
 
 

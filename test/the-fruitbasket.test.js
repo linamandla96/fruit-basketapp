@@ -30,8 +30,8 @@ describe('The fruit basket function', function () {
 
         const theFruitBasket = await TheFruit(pool);
         await theFruitBasket.newBasketFruit('orange', 1, 2)
-        await theFruitBasket.update('orange');
-        await theFruitBasket.update('orange');
+        await theFruitBasket.update('orange',1);
+        await theFruitBasket.update('orange',1);
         const fruitsArr = await theFruitBasket.getFruits('orange');
         
     
